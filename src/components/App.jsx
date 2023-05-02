@@ -25,3 +25,19 @@ export const App = () => {
     </div>
   );
 };
+
+
+// // clo
+// console.log('object :>> ', object);
+// // clg
+// console.log(object);
+// //nfn
+// const name = (params) => {
+   
+// }
+
+// anfn
+// (params) => {
+  
+// }
+
