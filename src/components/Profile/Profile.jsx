@@ -34,3 +34,15 @@ export const Profile = (props) => {
     )
 };
 
+Profile.prototypes = {
+  username: PropTypes.string.isRequired,
+  tag: PropTypes.string.isRequired,
+  location: PropTypes.string.isRequired,
+  avatar: PropTypes.string.isRequired,
+  stats: PropTypes.shape({
+  followers: PropTypes.string.isRequired,
+  views: PropTypes.string.isRequired,
+  likes: PropTypes.string.isRequired,
+  }).isRequired
+} 
+
